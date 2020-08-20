@@ -1,0 +1,77 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+}
+/*comment */
+h1{
+    font-size: 20px;
+    color:black;
+    text-transform: uppercase;
+}
+
+    h4,h5,h6{
+        background-color: black;
+        color:yellow;
+        width:300px;
+    }
+
+    p{
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:#030303;
+    }
+    /* id selector */
+    #second-p{
+        background-color: #dedede;
+        color:#000000;
+        font-size: 12px;
+    }
+    /* btn selector */
+  .btn{
+      background-color: #006381;
+      color: white;
+      text-align: center;
+  }
+  /* utilities */
+  .center{
+      text-align: center;
+  }
+  .container-80{
+      width:80;
+  }
+  /* lists*/
+  ul.test-ul{
+      list-style-type: none;
+      background-color: aqua;
+  }
+  ul.test-ul li{
+      display: inline-block;
+      background-color: navy;
+      margin: 1px;
+      padding: 5px;
+      color: white;
+      border: 5px solid #dedede;
+  }
+
+  ul.test-ul li:hover{
+      background-color: #5f0000;
+      color: white;
+      font-size: 20px;
+  }
+  nav{
+      background-color: navy;
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+  }
+  nav a{
+      color:white;
+      font-size: 18px;
+      text-decoration: none;
+      padding: 5px;
+      margin-right: 10px;
+      
+  }
+
+  nav a:hover{
+      color: #dda900;
+  }
